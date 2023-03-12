@@ -1,0 +1,43 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center 1px; /* adiciona 1px de espaço no topo */
+}
+
+header {
+    text-align: left;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+
+.videos iframe {
+    margin: 10px;
+}
+
+h1 {
+    color: #ffffff; /* Altere a cor para a cor desejada */
+    font-family: bebas kai, sans-serif; /* Altere a fonte para a fonte desejada */
+    font-size: 90px; /* Altere o tamanho para o tamanho desejado */
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000,  
+            1px -1px 0 #000,  
+        -1px  1px 0 #000,  
+            1px  1px 0 #000;
+}
+    
+h2 {
+    color: #ffffff;
+    font-family: acumin pro, sans-serif; /* Altere a fonte para a fonte desejada */
+    font-size: 25px; /* Altere o tamanho para o tamanho desejado */
+    margin-top: 10px; /* Adicione uma margem superior para separar do título */
+    text-shadow: -1px -1px 0 #000,  
+            1px -1px 0 #000,  
+        -1px  1px 0 #000,  
+            1px  1px 0 #000;
+}
