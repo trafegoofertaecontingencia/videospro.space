@@ -49,6 +49,7 @@ main {
     background-color: white;
     height: 100%;
     margin: auto;
+    padding-bottom: 30px;
     box-shadow: 0px 0x 10px rgba(0, 0, 0, 0.5);
     border-radius: 0px 0px 10px 10px;
 
